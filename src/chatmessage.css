@@ -1,0 +1,60 @@
+.user-div {
+    align-self: flex-end;
+    /* background: lightblue; */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    /* background-color: antiquewhite; */
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.robot-div {
+    align-self: flex-start;
+    /* background: lightgray; */
+    /* padding: 8px; */
+    display: flex;
+    align-items: center;
+    /* column-gap: 5px; */
+}
+
+
+
+
+.robot-pic {
+    display: flex;
+
+    width: 43px;
+    height: 40px;
+    border-radius: px;
+}
+
+.user-pic {
+    object-fit: cover;
+    object-position: contain;
+    border-radius: 40px;
+    object-position: left;
+    object-position: right;
+    background-color: aqua;
+    width: 45px;
+    height: 45px;
+
+}
+
+
+
+
+
+
+
+
+.loading-img {
+    height: 50px;
+    margin: -15px;
+    width: 50px;
+
+
+
+}

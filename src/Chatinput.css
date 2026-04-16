@@ -1,0 +1,135 @@
+.input-box {
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 25px;
+    width: 370px;
+    /* border: none; */
+    border-width: 1px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background: #0f1117;
+    border: 0.5px solid rgba(255, 255, 255, 0.10);
+
+    background: #16181f;
+    /* slightly lighter than base */
+    border-color: rgba(255, 255, 255, 0.07);
+    color: aliceblue;
+
+}
+
+/* 
+.send-btn {
+
+
+    color: rgb(55, 123, 57);
+    border: none;
+
+    border-radius: 46px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 33px;
+
+    display: flex;
+    align-items: center;
+    height: 21px;
+    justify-content: center;
+    margin-top: 7px;
+
+} */
+
+.send-btn {
+    color: rgb(55, 123, 57);
+    border: none;
+    padding-right: px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    border-radius: 46px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 33px;
+
+    display: flex;
+    align-items: center;
+    height: 38px;
+    justify-content: center;
+    margin-top: 7px;
+    transition: all 0.2s ease;
+    margin-right: 8px;
+    background-color: #0f1117;
+}
+
+.send-btn:hover {
+    background-color: #333;
+    transform: translateY(-1px);
+}
+
+.clear-btn {
+
+    /* Green */
+    color: rgb(55, 123, 57);
+    border: none;
+    /* padding-right: 5px;
+        padding-left: 10px;
+        padding-bottom: 7px;
+        padding-top: 5px; */
+    border-radius: 46px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 33px;
+
+    display: flex;
+    align-items: center;
+    height: 38px;
+    justify-content: center;
+    margin-top: 7px;
+    transition: all 0.2s ease;
+}
+
+/* hover effect */
+.clear-btn:hover {
+    background-color: #333;
+    transform: translateY(-1px);
+}
+
+/* click effect */
+.clear-btn:active {
+    transform: scale(0.97);
+}
+
+.input-box-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(38, 42, 40); */
+    margin-bottom: 15px;
+    column-gap: 12px;
+}
+
+.btns-box {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    background: #0f1117
+}
+
+
+
+.send-icon {
+
+    border-radius: 55px;
+    height: 44px;
+    object-fit: cover;
+    background-color: rgb(249, 249, 249);
+
+
+}
+
+.clear-icon {
+    border-radius: 55px;
+    height: 49px;
+    object-fit: contain;
+    background-color: rgb(0, 0, 0);
+}

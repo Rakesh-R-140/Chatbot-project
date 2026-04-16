@@ -1,0 +1,24 @@
+  body {
+    background: #0f1117;
+    /* deep dark base */
+    border: 0.5px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    font-family: system-ui, sans-serif;
+
+  }
+
+  .welcome-info {
+    text-align: center;
+  }
+
+  .App-container {
+
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+  }

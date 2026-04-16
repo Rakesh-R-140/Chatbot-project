@@ -1,0 +1,45 @@
+.text-message {}
+
+.user-message {
+    background: #3b4eff;
+    /* accent blue */
+    color: #ffffff;
+    padding: 15px 20px;
+
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.robot-message {
+    background: #1e2130;
+    color: #cbd5e1;
+    border: 0.5px solid rgba(255, 255, 255, 0.06);
+    padding: 15px 20px;
+
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.message-div {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chatMessages-div {
+    /* background-color: aqua; */
+    flex-grow: 1;
+    margin-top: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+
+
+
+}
