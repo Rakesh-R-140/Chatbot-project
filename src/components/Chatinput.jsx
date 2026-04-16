@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Chatbot } from 'supersimpledev';
 import '../Chatinput.css'
 
+
 import loadingpicture from '../assets/Trailloading.gif'
 import sendIcon from '../assets/send-icon.png'
 import clearIcon from '../assets/clean-icon.png'
