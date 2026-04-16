@@ -64,7 +64,7 @@ export function ChatInput({ chatmessages, setmessages }) {
 
         setinputText('');
 
-        // ✅ WAIT 2 seconds
+        // 2 min delay!!
         await delay(2000);
 
         const response = Chatbot.getResponse(inputText);

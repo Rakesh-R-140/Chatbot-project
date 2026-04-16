@@ -19,7 +19,7 @@ export function ChatMessage({ message, sender, time }) {
                 <div>
                     <div className={sender === 'user' ? 'user-message' : 'robot-message'}>{message}</div>
 
-                    {/* ⭐ TIME DISPLAY */}
+
                     <div style={{
                         fontSize: "11px",
                         color: "gray",

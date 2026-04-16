@@ -1,5 +1,3 @@
-.text-message {}
-
 .user-message {
     background: #3b4eff;
     /* accent blue */
@@ -34,7 +32,7 @@
 }
 
 .chatMessages-div {
-    /* background-color: aqua; */
+
     flex-grow: 1;
     margin-top: 10px;
     overflow: scroll;
