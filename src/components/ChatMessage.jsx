@@ -2,7 +2,7 @@ import robotprofileimage from '../assets/robot.png'
 import userprofileimage from '../assets/user.png'
 import '../ChatMessage.css'
 
-export function ChatMessage({ message, sender, time }) {
+export default function ChatMessage({ message, sender, time }) {
 
     const formattedTime = new Date(time).toLocaleTimeString([], {
         hour: '2-digit',

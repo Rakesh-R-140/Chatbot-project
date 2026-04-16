@@ -1,7 +1,7 @@
-import { ChatMessage } from "./ChatMessage"
+import ChatMessage from "./ChatMessage"
 import { useAutoScroll } from "../externalHooks/useAutoScroll"
 import '../ChatMessages.css'
-export function ChatMessages({ chatmessages }) {
+export default function ChatMessages({ chatmessages }) {
 
     const containerRef = useAutoScroll([chatmessages])
 

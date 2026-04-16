@@ -1,8 +1,8 @@
 import { useState, useEffect, } from 'react'
-import { ChatInput } from "./components/ChatInput";
+import ChatInput from "./components/ChatInput";
 // import { ChatMessage } from "./components/ChatMessage";
 import { Chatbot } from 'supersimpledev';
-import { ChatMessages } from "./components/ChatMessages";
+import ChatMessages from "./components/ChatMessages";
 import './App.css'
 
 

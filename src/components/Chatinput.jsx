@@ -7,7 +7,8 @@ import sendIcon from '../assets/send-icon.png'
 import clearIcon from '../assets/clean-icon.png'
 
 
-export function ChatInput({ chatmessages, setmessages }) {
+
+export default function ChatInput({ chatmessages, setmessages }) {
 
     const [inputText, setinputText] = useState('')
     function sendinputText(event) {
