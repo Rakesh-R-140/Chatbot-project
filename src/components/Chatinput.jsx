@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Chatbot } from 'supersimpledev';
-import '../Chatinput.css'
+import '../ChatInput.css'
 
-import loadingpicture from '../assets/Trail loading.gif'
+import loadingpicture from '../assets/Trailloading.gif'
 import sendIcon from '../assets/send-icon.png'
 import clearIcon from '../assets/clean-icon.png'
 
@@ -29,7 +29,7 @@ export function ChatInput({ chatmessages, setmessages }) {
 
     async function addedMessage() {
 
-
+        if (!inputText.trim()) return;
 
         const UserResponse = [
             ...chatmessages,
@@ -61,13 +61,13 @@ export function ChatInput({ chatmessages, setmessages }) {
                 id: crypto.randomUUID()
             }
         ]);
-
+        const userText = inputText;
         setinputText('');
 
-        // 2 min delay!!
         await delay(2000);
 
-        const response = Chatbot.getResponse(inputText);
+        const response = Chatbot.getResponse(userText);
+
 
 
         // add robot message after waiting
@@ -94,7 +94,7 @@ export function ChatInput({ chatmessages, setmessages }) {
     }
     return (
         <div className='input-box-div'>
-            <  input className='input-box' onKeyDown={eventhands} onChange={sendinputText} value={inputText} placeholder="send message to ChatBot" />
+            <input className='input-box' onKeyDown={eventhands} onChange={sendinputText} value={inputText} placeholder="send message to ChatBot" />
             <div className='btns-box' > <button className="send-btn" onClick={addedMessage}  > <img className="send-icon" src={sendIcon} /></button>
                 <button className="clear-btn" onClick={clearMessages}>
                     <img className="clear-icon" src={clearIcon} />
